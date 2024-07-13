@@ -40,3 +40,108 @@
 .read-the-docs {
   color: #888;
 }
+
+/*Inicio CSS curso talentoTech, esprando mas comandos*/
+
+.increment-button{
+  background-color: rgb(230, 144, 238);/*Color de fondo rosa*/
+  color: white;
+  border: none;/*Sin borde*/
+  padding: 10px 20px;/*Espaciado interno*/
+  margin: 5px;/*Margen exterior*/
+  cursor: pointer;/*Cursor tipo pointer*/
+  font-size: 16px;/*Tamaño de fuente*/
+  transition: background-color 0.3s;/*Transition usave para el color de fondo*/
+}
+
+/*Cambio de color de fondo al pasar el mouse sobre el botón de decrement*/
+.increment-button:hover{
+  background-color: rgb(128, 68, 0);/*Color de fondo marrón oscuro*/
+}
+
+
+.decrease-button{
+  background-color: lightcoral;/*Color de fondo coral claro*/
+  color: white;
+  border: none;/*Sin borde*/
+  padding: 10px 20px;/*Espaciado interno*/
+  margin: 5px;/*Margen exterior*/
+  cursor: pointer;/*Cursor tipo pointer*/
+  font-size: 16px;/*Tamaño de fuente*/
+  transition: background-color 0.3s;/*Transition usave para el color de fondo*/
+}
+
+/*Cambio de color de fondo al pasar el mouse sobre el botón de decrease*/
+.decrease-button:hover{
+  background-color: rgb(19, 0, 128);/*Color de fondo marrón oscuro*/
+}
+
+.reset-button{
+  background-color: rgb(148, 128, 240);/*Color de fondo coral claro*/
+  color: white;
+  border: none;/*Sin borde*/
+  padding: 10px 20px;/*Espaciado interno*/
+  margin: 5px;/*Margen exterior*/
+  cursor: pointer;/*Cursor tipo pointer*/
+  font-size: 16px;/*Tamaño de fuente*/
+  transition: background-color 0.3s;/*Transition usave para el color de fondo*/
+}
+
+/*Cambio de color de fondo al pasar el mouse sobre el botón de reset*/
+.reset-button:hover{
+  background-color: rgb(19, 0, 128);/*Color de fondo marrón oscuro*/
+}
+
+.square-button{
+  background-color: rgb(18, 145, 204);/*Color de fondo coral claro*/
+  color: white;/*Color de texto blanco*/
+  border: none;/*Sin borde*/
+  padding: 10px 20px;/*Espaciado Interno*/
+  margin: 5px;/*Margen exterior*/
+  cursor: pointer;/*Cursor tipo pointer*/
+  font-size: 16px;/*Tamaño de fuente*/
+  transition: background-color 0.3s;/*Transición suave para el color de fondo*/
+}
+
+.square-button{
+  cursor: pointer;/*Cursor tipo pointer*/
+  font-size: 16px; /*Tamaño fuente*/
+  transition: background-color 0.3s;/*Transición suave para el color del fondo*/
+}
+
+.square-button:hover{
+  background-color: rgb(20, 169, 238);/*Color de fonde verde oscuro*/
+}
+
+.count-text{
+  font-size: 1.2em;/*Tamaño de fuente más grande*/
+  font-weight: bold;/*Texto en negrita*/
+  color: darkgreen;/*Color de texto verde oscuro*/
+}
+
+.text-input-container{
+  width: 300px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.input-wrapper{
+  margin-bottom: 20px;
+}
+
+.input-field{
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: -20px;
+}
+
+.display-text{
+  font-size: 18px;
+  color: #333;
+}
